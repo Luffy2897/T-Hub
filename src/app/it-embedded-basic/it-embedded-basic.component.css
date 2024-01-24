@@ -1,0 +1,130 @@
+th {
+  border: 1px solid black;
+
+  border-collapse: collapse;
+
+  width: 40%;
+  color: white;
+}
+
+td {
+  width: 0%;
+
+  border: 1px solid black;
+
+  border-collapse: collapse;
+
+  text-align: center;
+  color: white;
+}
+
+.content {
+  padding: 1px 18px;
+
+  display: none;
+
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+/* EXPANSION PANEL MARGIN ADJUSTMENT */
+
+.mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}
+
+/* EXPANSION PANEL WIDTH AND LENGTH ADJUSTMENTS */
+
+mat-expansion-panel {
+  width: 100%;
+}
+
+/* EXPANSION PANEL TITLE SIZE ADJUSTMENTS */
+
+mat-panel-title {
+  color: black;
+}
+
+/* TABLE HEADER STYLINGS */
+
+.a1 {
+  width: 1%;
+}
+
+.a2 {
+  width: 15%;
+  text-align: center;
+}
+
+.a3 {
+  width: 2%;
+  text-align: center;
+}
+
+.a4 {
+  width: 10%;
+  text-align: center;
+}
+
+mat-expansion-panel {
+  opacity: 0.6;
+}
+
+.navbar-brand img {
+  width: 120px; /* Adjust the width to increase or decrease the image size */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+.nav-link {
+  color: white;
+}
+p {
+  color: rgb(122, 13, 238);
+}
+
+.navbar-nav{
+  position: absolute;
+}
+
+.tab {
+  background-position: fixed;
+  height: 100%;
+  margin-left: 140px;
+}
+
+.container-fluid {
+  background-image: url("../../assets/image/table.png");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: max-content;
+}
+
+.a {
+  margin-top: -5.2%;
+
+  margin-left: 4.5%;
+
+  size: 3%;
+}
+
+#a1 {
+  margin-top: 3.5%;
+
+  margin-left: 0.5%;
+
+  background-color: rgb(78, 136, 78);
+}
+
+.b1 {
+  margin-top: -6%;
+
+  margin-left: 81%;
+
+  font-weight: bolder;
+
+  text-decoration: none;
+}

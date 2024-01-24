@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  transform-style: preserve-3d;
+}
+
+.container .box {
+  position: relative;
+  width: 230px;
+  height: 232px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.container .box .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 0.9s ease;
+}
+
+.container .box .body .imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 2px solid rgb(134, 135, 111);
+}
+
+.container .box .body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  border-radius: 25px;
+  border: 2px solid hotpink;
+}
+
+.container .box:hover .body {
+  transform: rotateY(180deg);
+  -o-transition-duration: 1.15s;
+  transition: all;
+}
+
+.container .box .body .content div {
+  transform-style: preserve-3d;
+  padding: 20px;
+  background: linear-gradient(45deg, #fe0061, #ffeb3b);
+  transform: translateZ(100px);
+}
+
+.container .box .body .content div h3 {
+  letter-spacing: 1px;
+}
+
+.bg {
+  background-image: url("../../assets/image/blackrock.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.innerbox {
+  width: 80%;
+  border-radius: 15px;
+  border: 2px solid hotpink;
+  transition: border-color 0.3s ease-in-out; /* Optional: Add a smooth transition effect */
+}
+
+.innerbox:hover {
+  border-color: #ff69b4; /* Change border color on hover */
+  animation: shake 5s ease infinite; /* Apply the shake animation on hover */
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(2px);
+  }
+}
+
+.b1 {
+  width: 45px;
+  height: 40px;
+  margin-left: 2px;
+}
+.imgContainer {
+  position: relative;
+}
+
+.image-heading {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 40px; /* Adjust the left position as needed */
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners for the background */
+  text-align: center;
+  text-decoration: dashed;
+  color: #df8787;
+}

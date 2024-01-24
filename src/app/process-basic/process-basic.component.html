@@ -1,0 +1,92 @@
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-">
+    <button
+      class="navbar-toggler bg-light"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapsibleNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1
+      class="text-light"
+      style="
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: bold;
+      "
+    >
+      PROCESS BASIC TOPICS
+    </h1>
+    <a class="navbar-brand"
+      ><img src="../../assets/image/T-HUB.png" alt="Logo"
+    /></a>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="location">Location Spoc</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news">News Feed</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reference">Reference Document</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="tab">
+    <table id="table">
+      <tr>
+        <th class="a2">TOPICS</th>
+
+        <th class="a3">DURATION IN DAYS</th>
+
+        <th class="a3">HANDS-ON</th>
+
+        <th class="a3">REFERENCE</th>
+
+        <!-- <th class="a3">bosch</th> -->
+      </tr>
+      <tr class="link">
+        <td>
+          <mat-expansion-panel
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title> Safe Agile </mat-panel-title>
+            </mat-expansion-panel-header>
+
+            <p>
+              Intro to Agile Release train, work with team, plan and execute
+              work, apply Scaled Agile Framework® and Agile principles and
+              continuously improve.
+            </p>
+          </mat-expansion-panel>
+
+          <mat-expansion-panel hideToggle>
+            <p>This is the primary content of the panel.</p>
+          </mat-expansion-panel>
+        </td>
+
+        <!-- END -->
+
+        <td>2</td>
+
+        <td>TBC</td>
+
+        <td class="link"><a href="">link</a></td>
+      </tr>
+    </table>
+  </div>
+</div>

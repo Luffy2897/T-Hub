@@ -1,0 +1,7 @@
+.bg-image {
+  background-image: url("../../assets/image/ipad1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
